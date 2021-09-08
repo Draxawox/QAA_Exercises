@@ -1,4 +1,4 @@
-package day1;
+package Academy.day1;
 
 public class Day1 {
 //    primitive types
