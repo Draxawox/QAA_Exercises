@@ -1,6 +1,6 @@
 package exercises;
 
-public class Exercise7TeenNumberChecker {
+public class Exercise07TeenNumberChecker {
     public static boolean hasTeen (int a, int b, int c) {
         return isTeen(a) || isTeen(b) || isTeen(c);
     }

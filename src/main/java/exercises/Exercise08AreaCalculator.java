@@ -2,7 +2,7 @@ package exercises;
 
 import static java.lang.Math.PI;
 
-public class Exercise8AreaCalculator {
+public class Exercise08AreaCalculator {
     public static double area(double radius) {
         return radius < 0 ? -1 : radius * radius * PI;
     }
