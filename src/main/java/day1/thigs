@@ -1,0 +1,5 @@
+    var result = 4 > 7 ? "Pass" : 2;
+
+    ++, --, ! - unary operators
+    +, -, *, /, %, & - binary operators
+    bool ? : - ternary operators
