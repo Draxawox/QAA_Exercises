@@ -1,11 +1,10 @@
-import challenges.section4.Challange1;
-import exercises.Exercise24FlourPacker;
-import exercises.Exercise26DiagonalStar;
+import challenges.section5.Challenge6;
+import exercises.Exercise27InputCalculator;
 
 public class Main {
 
 
     public static void main(String[] args)  {
-        Exercise26DiagonalStar.printSquareStar(5);
+
     }
 }
