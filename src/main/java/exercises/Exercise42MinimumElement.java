@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class Exercise43MinimumElement {
+public class Exercise42MinimumElement {
 }
 
 class MinimumElement {
