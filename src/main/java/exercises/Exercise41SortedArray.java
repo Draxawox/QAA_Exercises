@@ -2,7 +2,7 @@ package exercises;
 
 import java.util.Scanner;
 
-public class Exercise42SortedArray {
+public class Exercise41SortedArray {
 }
 
 class SortedArray {
