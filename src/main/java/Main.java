@@ -7,6 +7,6 @@ public class Main {
 
 
     public static void main(String[] args)  {
-        Exercise45Banking.start();
+        Exercise46Playlist.start();
     }
 }
