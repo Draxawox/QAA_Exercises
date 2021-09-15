@@ -40,7 +40,7 @@ class League<T extends Team> {
     }
 }
 
-class Team<T extends Player> implements Comparable<Team<T>>{
+class Team<T extends Player> implements Comparable<Team<T>> {
     private String teamName;
     private int played;
     private int won;

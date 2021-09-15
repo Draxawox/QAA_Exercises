@@ -1,4 +1,4 @@
-package exercises.Excercise49;
+package exercises.Exercise49;
 
 public class MyLinkedList implements NodeList {
     private ListItem root;

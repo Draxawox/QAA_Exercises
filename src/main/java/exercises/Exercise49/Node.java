@@ -1,4 +1,4 @@
-package exercises.Excercise49;
+package exercises.Exercise49;
 
 public class Node extends ListItem {
     public Node(Object value) {
