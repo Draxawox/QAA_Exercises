@@ -1,12 +1,9 @@
-import exercises.*;
-
-import java.util.Arrays;
-import java.util.Collections;
+import exercises.Exercise26DiagonalStar;
 
 public class Main {
 
 
     public static void main(String[] args)  {
-        Exercise46Playlist.start();
+        Exercise26DiagonalStar.printSquareStar(7);
     }
 }
