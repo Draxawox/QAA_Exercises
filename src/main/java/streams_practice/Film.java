@@ -66,8 +66,8 @@ public class Film {
 
 class FilmProcessing {
     public static void main(String[] args) {
-        Film film1 = new Film("Three Amigos!", 104, 6.5, "western", List.of("Comedy", "Western", "Family", "Funny"));
-        Film film2 = new Film("Alosza Popowicz i waz Tugaryn", 79, 7.2, "animation", List.of("Comedy", "hero", "speaking horse", "family"));
+        Film film1 = new Film("Three Amigos!", 104, 6.5, "western", List.of("comedy", "Western", "Family", "Funny"));
+        Film film2 = new Film("Alosza Popowicz i waz Tugaryn", 79, 7.2, "animation", List.of("comedy", "hero", "speaking horse", "family"));
         Film film3 = new Film("Limitless", 105, 7.4, "thriller", List.of("intelligence", "drugs", "rapid learning", "experiment"));
         Film film4 = new Film("Free Guy", 115, 7.4, "action", List.of("adventure", "comedy", "gun", "vr"));
         Film film5 = new Film("No Time to Die", 163, 8.0, "action", List.of("adventure", "thriller", "gun", "agent"));
@@ -76,7 +76,7 @@ class FilmProcessing {
         Film film8 = new Film("Dear Mother", 98, 6.3, "comedy", List.of("male nudity", "polaroid", "paranormal", "guru"));
         Film film9 = new Film("The Summit of the Gods", 90, 7.7, "animation", List.of("adventure", "mountains", "drama", "missing"));
         Film film10 = new Film("Tralala", 120, 6.4, "musical", List.of("smth", "idn", "moresmth", "nothing"));
-        Film film11 = new Film("Red Rocket", 128, 7.0, "comedy", List.of("Comedy", "drama", "texas", "star"));
+        Film film11 = new Film("Red Rocket", 128, 7.0, "comedy", List.of("comedy", "drama", "texas", "star"));
         Film film12 = new Film("Drive My Car", 179, 7.7, "drama", List.of("asian", "husband", "widower", "japanese"));
         Film film13 = new Film("Titane", 108, 6.7, "drama", List.of("sci-fi", "thriller", "mind", "crime"));
         Film film14 = new Film("Benedetta", 131, 6.6, "drama", List.of("history", "biography", "nun", "love"));
@@ -147,8 +147,8 @@ class FilmProcessing {
         Scanner sc = new Scanner(System.in);
         System.out.println("podaj wyraz");
         String value = sc.next();
+        res = list.stream().filter(x -> x.getSearchKeywords().contains(value)).collect(Collectors.toList());
         res.forEach(x -> System.out.println(x.getTitle()));
-
     }
 }
 /*
