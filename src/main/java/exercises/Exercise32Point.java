@@ -18,12 +18,12 @@ public class Exercise32Point {
         return x;
     }
 
-    public int getY() {
-        return y;
-    }
-
     public void setX(int x) {
         this.x = x;
+    }
+
+    public int getY() {
+        return y;
     }
 
     public void setY(int y) {
@@ -33,9 +33,11 @@ public class Exercise32Point {
     public double distance() {
         return Math.sqrt(getX() * getX() + getY() * getY());
     }
+
     public double distance(int x, int y) {
         return Math.sqrt(-x * -x) + (-y * -y);
     }
+
     public double distance(Point first) {
         return Math.sqrt((getX() - first.getX()) * (getX() - first.getX()) + (getY() - first.getY()) * (getY() - first.getY()));
     }

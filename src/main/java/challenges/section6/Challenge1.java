@@ -1,12 +1,11 @@
 package challenges.section6;
 
-import java.sql.SQLOutput;
-
 public class Challenge1 {
     private long accountNumber;
     private double balance;
     private String customerName;
     private String email;
+    private String phoneNumber;
 
     public Challenge1() {
     }
@@ -19,46 +18,44 @@ public class Challenge1 {
         this.phoneNumber = phoneNumber;
     }
 
-    private String phoneNumber;
+    public long getAccountNumber() {
+        return accountNumber;
+    }
 
     public void setAccountNumber(long accountNumber) {
         this.accountNumber = accountNumber;
-    }
-
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public long getAccountNumber() {
-        return accountNumber;
     }
 
     public double getBalance() {
         return balance;
     }
 
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public String getCustomerName() {
         return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getEmail() {
         return email;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getPhoneNumber() {
         return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public void depositFounds(double amount) {
